@@ -36,7 +36,6 @@ I've structured the repository based on the tasks I completed:
 * Various techniques for converting structured image data into graph representations (point clouds, KNN graphs) and how to engineer relevant node/edge features (like polar coordinates or distance).
 * How to implement and train different GNN architectures (GATv2 for classification, GCN for autoencoding) using PyTorch Geometric.
 * The conceptual differences and potential trade-offs between using standard CNN-based autoencoders versus graph-based autoencoders for this type of jet data.
-* Strategies for using sequence-based models like Transformers for generative tasks on non-sequential data, specifically by discretizing the continuous latent space of a pre-trained VAE (using K-Means per dimension) and training an autoregressive Transformer on the resulting sequences of discrete codes.
 
 ## Challenges I Faced & Considerations
 
