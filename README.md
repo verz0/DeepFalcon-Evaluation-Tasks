@@ -43,3 +43,6 @@ I've structured the repository based on the tasks I completed:
 * **Hyperparameter Tuning:** Finding the best settings (like learning rates, network sizes, `k` for KNN, VAE's beta value, dropout rates) wasn't straightforward and usually requires more extensive experimentation than I performed in these initial explorations.
 * **Graph Construction Details:** Turning images into graphs involves making several choices (intensity threshold, how to define nodes/edges/features) that significantly influence the results. I also had to filter out graphs that didn't have enough nodes after thresholding.
 * **Visualization:** Visualizing the high-dimensional outputs (latent spaces, embeddings) needed dimensionality reduction (PCA, UMAP). I also had to adjust plotting parameters like axis limits to get meaningful views, especially for the latent space plots.
+
+PS: The respective directories and the notebooks for each task has detailed explanations included for your reference and evaluation.
+    The models were developed in a Kaggle environment (16GB RAM + T4 GPU)
